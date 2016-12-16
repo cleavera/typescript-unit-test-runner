@@ -1,0 +1,17 @@
+{
+  "name": "typescript-unit-test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "typings": "index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Cleaver",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "ts-node": "^1.7.2",
+    "typescript": "^2.1.4"
+  }
+}
