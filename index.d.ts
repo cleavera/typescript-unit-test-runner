@@ -1,1 +1,1 @@
-export default function tsUnitTest(pathPattern: any, configObj: any): void;
+export declare function run(pathPattern: any, configObj: any): void;

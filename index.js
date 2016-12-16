@@ -1,6 +1,6 @@
 "use strict";
 var glob = require('glob'), exec = require('child_process').exec;
-function tsUnitTest(pathPattern, configObj) {
+function run(pathPattern, configObj) {
     configObj = configObj || {};
     var flags = '';
     if (configObj.project) {
@@ -21,5 +21,4 @@ function tsUnitTest(pathPattern, configObj) {
         });
     });
 }
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = tsUnitTest;
+exports.run = run;

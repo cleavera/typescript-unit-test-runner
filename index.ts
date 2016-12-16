@@ -3,7 +3,7 @@ declare let require;
 let glob = require('glob'),
     exec = require('child_process').exec;
 
-export default function tsUnitTest(pathPattern, configObj) {
+export function run(pathPattern, configObj) {
     configObj = configObj || {};
 
     let flags = '';
