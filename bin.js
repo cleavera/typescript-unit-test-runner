@@ -15,4 +15,4 @@ function getFlags(arguments) {
     return out;
 }
 
-index(process.argv[process.argv.length - 1], getFlags(process.argv));
+index.run(process.argv[process.argv.length - 1], getFlags(process.argv));
